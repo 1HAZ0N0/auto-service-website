@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+
+<head>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<title>СТО Trumtaiev - Професійний ремонт автомобілів</title>
+
+	<link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header class="navbar">
+		<div class="container navbar-container">
+			<a class="logo" href="#hero">Trumtaiev</a>
+			<button class="mobile-menu-btn" id="mobileMenuBtn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<ul class="nav-menu" id="navMenu">
+				<li><a class="nav-link" href="#services">Послуги СТО</a></li>
+				<li><a class="nav-link" href="#schedule">Графік роботи</a></li>
+				<li><a class="nav-link" href="#contact">Залишити заявку</a></li>
+				<li><a class="nav-link" href="#footer">Контакти</a></li>
+			</ul>
+		</div>
+	</header>
+	<section class="hero" id="hero">
+		<div class="container hero-content">
+			<a class="footer-logo" href="#hero">Trumtaiev</a>
+			<p class="footer-description">
+				Професійний автосервіс з багаторічним досвідом. Ми забезпечуємо якісний ремонт та обслуговування вашого
+				автомобіля
+			</p>
+			<div class="footer-features">
+				<div class="footer-feature">
+					<div class="footer-feature-icon">✓</div>
+					<span>Гарантія на всі види робіт</span>
+				</div>
+				<div class="footer-feature">
+					<div class="footer-feature-icon">✓</div>
+					<span>Сучасне обладнання</span>
+				</div>
+				<div class="footer-feature">
+					<div class="footer-feature-icon">✓</div>
+					<span>Оригінальні запчастини</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section" id="services">
+		<div class="container">
+			<h2 class="section-title">Наші послуги для вашого автомобіля</h2>
+			<p class="section-subtitle">Ми пропонуємо широкий спектр послуг для автомобілів, включаючи діагностику,
+				ремонт та технічне обслуговування. Наша команда досвідчених механіків готова забезпечити якісний сервіс
+				для вашого авто.</p>
+			<div class="services-grid">
+				<div class="service-card">
+					<div class="service-icon">🔧</div>
+					<h3 class="service-title">Діагностика та ремонт автомобілів</h3>
+					<p>Професійна діагностика та усунення несправностей.</p>
+				</div>
+				<div class="service-card">
+					<div class="service-icon">⚙️</div>
+					<h3 class="service-title">Технічне обслуговування та сервіс</h3>
+					<p>Регулярне обслуговування для надійної роботи вашого авто.</p>
+				</div>
+				<div class="service-card">
+					<div class="service-icon">🎨</div>
+					<h3 class="service-title">Кузовний ремонт та фарбування</h3>
+					<p>Відновлення кузова та якісне фарбування.</p>
+				</div>
+			</div>
+			<div style="text-align: center;">
+				<a class="btn" href="#contact">Детальніше</a>
+			</div>
+		</div>
+	</section>
+	<section class="section" id="schedule">
+		<div class="container">
+			<h2 class="section-title">Наш графік роботи</h2>
+			<p class="section-subtitle">Ми працюємо, щоб забезпечити вам найкращий сервіс. Ознайомтеся з нашим графіком
+				роботи, щоб планувати візити. Ваш комфорт та задоволення — наш пріоритет.</p>
+			<div class="schedule-grid">
+				<div class="schedule-card">
+					<span class="day-range">Понеділок - П'ятниця</span>
+					<div class="day">Пн-Пт</div>
+					<h3 class="schedule-title">Час роботи</h3>
+					<p class="schedule-time">9:00 - 18:00</p>
+				</div>
+				<div class="schedule-card">
+					<span class="day-range">Субота</span>
+					<div class="day">Сб</div>
+					<h3 class="schedule-title">Час роботи</h3>
+					<p class="schedule-time">10:00 - 16:00</p>
+				</div>
+				<div class="schedule-card day-off">
+					<span class="day-range">Неділя</span>
+					<div class="day">Нд</div>
+					<h3 class="schedule-title">Вихідний день</h3>
+					<p class="schedule-time">Не працюємо</p>
+				</div>
+			</div>
+			<div
+				style="text-align: center; margin-top: 30px; padding: 15px; background-color: #f8f9fa; border-radius: 8px;">
+				<p style="font-style: italic; color: #6c757d; margin: 0;">
+					⚠️ У святкові дні графік роботи може змінюватися.
+					<a href="#footer" style="color: var(--primary-color); text-decoration: underline;">Уточнюйте по
+						телефону</a>.
+				</p>
+			</div>
+		</div>
+	</section>
+	<section class="section" id="contact">
+		<div class="container">
+			<h2 class="section-title">Залишити заявку</h2>
+			<p class="section-subtitle">Зв'яжіться з нами для отримання додаткової інформації або запису на сервіс</p>
+			<div
+				style="max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; box-shadow: var(--shadow);">
+				<form>
+					<div class="form-group">
+						<input class="form-input" placeholder="Ваше ім'я" required="" type="text" />
+					</div>
+					<div class="form-group">
+						<input class="form-input" placeholder="Ваш телефон" required="" type="tel" />
+					</div>
+					<div class="form-group">
+						<input class="form-input" placeholder="Ваш email" type="email" />
+					</div>
+					<div class="form-group">
+						<textarea class="form-input" placeholder="Повідомлення" rows="5"
+							style="resize: vertical;"></textarea>
+					</div>
+					<button class="btn" style="width: 100%;" type="submit">Надіслати заявку</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<footer class="footer" id="footer">
+		<div class="container footer-content">
+			<div class="footer-main">
+				<div class="contact-info">
+					<h3>Контактна інформація</h3>
+					<div class="contact-item">
+						<div class="contact-icon">📍</div>
+						<div class="contact-details">
+							<h4>Адреса</h4>
+							<p>вул. Авторемонтна, 123<br />Київ, Україна</p>
+						</div>
+					</div>
+					<div class="contact-item">
+						<div class="contact-icon">📞</div>
+						<div class="contact-details">
+							<h4>Телефон</h4>
+							<p>+380 (12) 345-67-89</p>
+						</div>
+					</div>
+					<div class="contact-item">
+						<div class="contact-icon">✉️</div>
+						<div class="contact-details">
+							<h4>Email</h4>
+							<p>info@trumtaiev.ua</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="footer-copyright">
+					<span>© 2026 Trumtaiev. Усі права захищені.</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
